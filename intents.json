@@ -1,0 +1,1062 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+            ]
+        },
+        {
+            "patterns": [
+                "vc of jammu university",
+                "vc of ju",
+                "vice chanceller of ju"
+            ],
+            "responses": [
+                "Prof. Umesh Rai"
+            ],
+            "tag": "VC"
+        },
+        {
+            "patterns": [
+                "head of department of computer science and it",
+                "hod of MCA",
+                "hod of MTech"
+            ],
+            "responses": [
+                "Prof. Pawanesh Abrol",
+                "Prof. Pawanesh Abrol",
+                "Prof. Pawanesh Abrol"
+            ],
+            "tag": "computer sc. and it"
+        },
+        {
+            "tag": "hod chemistry",
+            "patterns": [
+                "HOD of Chemistry",
+                "Head of Department of Chemistry"
+            ],
+            "responses": [
+                "Prof. K K Kapoor"
+            ]
+        },
+        {
+            "tag": "hod physics",
+            "patterns": [
+                "HOD of Physics",
+                "Head of Department of Physics"
+            ],
+            "responses": [
+                "Prof. Sanjeev Singh Sambyal"
+            ]
+        },
+        {
+            "tag": "hod pol",
+            "patterns": [
+                "HOD of Political Science",
+                "Head of Department of Political Science"
+            ],
+            "responses": [
+                "Prof. Baljit Singh"
+            ]
+        },
+        {
+            "tag": "hod economics",
+            "patterns": [
+                "HOD of Economics",
+                "Head of Department of Economics"
+            ],
+            "responses": [
+                "Prof. Prakash Chand"
+            ]
+        },
+        {
+            "tag": "hod library",
+            "patterns": [
+                "HOD of Library Science",
+                "Head of Department of Library Science"
+            ],
+            "responses": [
+                "Prof. Sangeeta Rani"
+            ]
+        },
+        {
+            "tag": "hod statistics",
+            "patterns": [
+                "HOD of Statistics",
+                "Head of Department of Statistics"
+            ],
+            "responses": [
+                "Prof. Pawan Kumar"
+            ]
+        },
+        {
+            "tag": "hod commerce   ",
+            "patterns": [
+                "HOD of Commerce,Marketing",
+                "Head of Department of Commerce,Marketing"
+            ],
+            "responses": [
+                "Prof. Gurjeet Kour"
+            ]
+        },
+        {
+            "tag": "hod physical   ",
+            "patterns": [
+                "HOD of Physical Education",
+                "Head of Department of Physical Education"
+            ],
+            "responses": [
+                "Prof. Rajeev Rattan"
+            ]
+        },
+        {
+            "tag": " hod botany  ",
+            "patterns": [
+                "HOD of Botany",
+                "Head of Department of Botany"
+            ],
+            "responses": [
+                "Prof. Namrata Sharma"
+            ]
+        },
+        {
+            "tag": "hod Zoology",
+            "patterns": [
+                "HOD of Zoology",
+                "Head of Department of Zoology"
+            ],
+            "responses": [
+                "Prof. Seema Langer"
+            ]
+        },
+        {
+            "tag": "HOD Geology",
+            "patterns": [
+                "HOD of Geology",
+                "Head of Department of Geology"
+            ],
+            "responses": [
+                "Prof. Pankaj Kumar Srivastava"
+            ]
+        },
+        {
+            "tag": "HOD Sociology",
+            "patterns": [
+                "HOD of Sociology",
+                "Head of Department of Sociology"
+            ],
+            "responses": [
+                "Prof. Vishav Raksha"
+            ]
+        },
+        {
+            "tag": "HOD Mathematics",
+            "patterns": [
+                "HOD of Mathematics",
+                "Head of Department of Mathematics",
+                "HOD of Maths",
+                "Head of Department  of Maths"
+            ],
+            "responses": [
+                "Prof. k.S Charak"
+            ]
+        },
+        {
+            "tag": "HOD Psychology",
+            "patterns": [
+                "HOD of Psychology",
+                "Head of Department of Pstchology"
+            ],
+            "responses": [
+                "Prof. Arti Bakshi"
+            ]
+        },
+        {
+            "tag": " HOD Geography",
+            "patterns": [
+                "HOD of Geography",
+                "Head of Department of Geography"
+            ],
+            "responses": [
+                "Prof. Anuradha Sharma"
+            ]
+        },
+        {
+            "tag": "HOD Home Science  ",
+            "patterns": [
+                "HOD of Home Science",
+                "Head of Department of Home Science"
+            ],
+            "responses": [
+                "Prof. Shashi Manhas"
+            ]
+        },
+        {
+            "tag": "HOD Environmental Science",
+            "patterns": [
+                "HOD of Environmental Science",
+                "Head of Department of Environmental Science",
+                "HOD of EVS",
+                "Head of Department of EVS"
+            ],
+            "responses": [
+                "Dr. Raj Kumar Rampal"
+            ]
+        },
+        {
+            "tag": "HOD Museology",
+            "patterns": [
+                "HOD of Museology",
+                "Head of Department of Museology"
+            ],
+            "responses": [
+                "Prof. Poonam Chaudhary"
+            ]
+        },
+        {
+            "tag": " HOD Philosophy",
+            "patterns": [
+                "HOD of Philosophy",
+                "Head of Department of Philosophy"
+            ],
+            "responses": [
+                "Sh.Sanjay Kumar"
+            ]
+        },
+        {
+            "tag": "HOD Law",
+            "patterns": [
+                "HOD of Law",
+                "Head of Department of Law"
+            ],
+            "responses": [
+                "Prof. Kulwant Singh"
+            ]
+        },
+        {
+            "tag": "HOD MBA",
+            "patterns": [
+                "HOD of MBA",
+                "HOD of Business Administration",
+                "Head of Business Administration",
+                "Head of Department of MBA"
+            ],
+            "responses": [
+                "Prof. Alka Sharma"
+            ]
+        },
+        {
+            "tag": "HOD Kashmiri",
+            "patterns": [
+                "HOD of Kashmiri",
+                "Head of Department of Kashmiri"
+            ],
+            "responses": [
+                "Dean"
+            ]
+        },
+        {
+            "tag": "HOD Sanskrit",
+            "patterns": [
+                "HOD of Sanskrit",
+                "Head of Department of Sanskrit"
+            ],
+            "responses": [
+                "Prof. Ram Bahadur"
+            ]
+        },
+        {
+            "tag": "HOD Punjabi",
+            "patterns": [
+                "HOD of Punjabi",
+                "Head of Department of Punjabi"
+            ],
+            "responses": [
+                "Prof. Baljit kaur"
+            ]
+        },
+        {
+            "tag": "HOD Buddhist Studie",
+            "patterns": [
+                "HOD of Buddhist Studies",
+                "Head of Department of Buddhist Studies"
+            ],
+            "responses": [
+                "Dr. Ram Nadan Singh"
+            ]
+        },
+        {
+            "tag": "  HOD of English",
+            "patterns": [
+                "HOD of English",
+                "Head of Department of English"
+            ],
+            "responses": [
+                "Prof. Monika Sethi"
+            ]
+        },
+        {
+            "tag": "HOD of Hindi",
+            "patterns": [
+                "HOD of Hindi",
+                "Head of Department of Hindi"
+            ],
+            "responses": [
+                "Prof. Neelam Saraf"
+            ]
+        },
+        {
+            "tag": " HOD of Dogri",
+            "patterns": [
+                "HOD of Dogri",
+                "Head of Department of Dogri"
+            ],
+            "responses": [
+                "Prof. Siv Dev Singh Manhas"
+            ]
+        },
+        {
+            "tag": "HOD of Urdu",
+            "patterns": [
+                "HOD of Urdu",
+                "Head of Department of Urdu"
+            ],
+            "responses": [
+                "Prof. Shohab Inyat Malik"
+            ]
+        },
+        {
+            "tag": " HOD of Persian & Arabic",
+            "patterns": [
+                "HOD of Persian & Arabic",
+                "Head of Department of Persian & Arabic"
+            ],
+            "responses": [
+                "Prof. Mushtaq Ahmed"
+            ]
+        },
+        {
+            "tag": "HOD of Education",
+            "patterns": [
+                "HOD of Education",
+                "Head of Department of Education"
+            ],
+            "responses": [
+                "Prof. Rajeev Rattan Sharma"
+            ]
+        },
+        {
+            "tag": "HOD of Bio-Technology",
+            "patterns": [
+                "HOD of Bio-Technology/Bio-Chemistry/Microbiology",
+                "Head of Department of Bio-Technology/Bio-chemistry/Microbiology"
+            ],
+            "responses": [
+                "Prof. Jyoti Vakhlu"
+            ]
+        },
+        {
+            "tag": "sensing",
+            "patterns": [
+                "HOD of Remote Sensing",
+                "Head of Department of Remote Sensing"
+            ],
+            "responses": [
+                "Prof. A.S Jasrotia"
+            ]
+        },
+        {
+            "tag": "mtech",
+            "patterns": [
+                "Duration of doing MTech",
+                "Semesters in MTech"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "mca",
+            "patterns": [
+                "Duration of doing  MCA",
+                "Duration of Computer Sc. and IT",
+                "Semesters in Computer Sc. and IT",
+                "Semesters in MCA"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "chemistry",
+            "patterns": [
+                "Duration  of doing Chemistry",
+                "Semesters in Chemistry"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "physics",
+            "patterns": [
+                "Duration  of doing Physics",
+                "Semesters in Physics"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "political science",
+            "patterns": [
+                "Duration of doing Political Science",
+                "Semesters in Political Science"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "economics",
+            "patterns": [
+                "Duration of doing Economics",
+                "Semesters in Economics"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "library science",
+            "patterns": [
+                "Duration of doing Library Science",
+                "Semesters in Library Science"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " statistics  ",
+            "patterns": [
+                "Duration of doing Statistics",
+                "Semesters in Statistics"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "commerce",
+            "patterns": [
+                "Duration of doing Commerce,Marketing",
+                "Semesters in  Commerce,Marketing"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "physical education",
+            "patterns": [
+                "Duration of doing Physical Education",
+                "Semesters in Physical Education"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "botany   ",
+            "patterns": [
+                "Duration of  Botany",
+                "Semesters in Botany"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "zoology",
+            "patterns": [
+                "Duration of  Zoology",
+                "Semesters in Zoology"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "geology",
+            "patterns": [
+                "Duration of  Geology",
+                "Semesters in Geology"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "sociology",
+            "patterns": [
+                "Duration of Sociology",
+                "Semesters in Sociology"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "math",
+            "patterns": [
+                "Duration of Mathematics",
+                "Semesters in Mathematics",
+                "Semesters in Maths",
+                "Duration of Maths"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "psychology",
+            "patterns": [
+                "Duration of Psychology",
+                "Semesters in Psychology"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " geography",
+            "patterns": [
+                "Duration of Geography",
+                "Semesters Geography"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " home science",
+            "patterns": [
+                "Duration of Home Science",
+                "Semesters in Home Science"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " evs",
+            "patterns": [
+                "Duartion of Environmental Science",
+                "Semesters in  Environmental Science",
+                "Duration of EVS",
+                "Semesters in EVS"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " museology",
+            "patterns": [
+                "Duration of Museology",
+                "Semesters in Museology"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " philosophy",
+            "patterns": [
+                "Duration of Philosophy",
+                "Semesters in Philosophy"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " law",
+            "patterns": [
+                "Duration of Law",
+                "Semsters in Law"
+            ],
+            "responses": [
+                "4 years",
+                "8 semesters"
+            ]
+        },
+        {
+            "tag": "mba",
+            "patterns": [
+                "Duration of MBA",
+                "Duration of Business Administration",
+                "Semesters in Business Administration",
+                "Semesters in MBA"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "kashmiri",
+            "patterns": [
+                "Duration of Kashmiri",
+                "Semesters in Kashmiri"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "sanskrit",
+            "patterns": [
+                "Duration of Sanskrit",
+                "Semesters in Sanskrit"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "punjabi",
+            "patterns": [
+                "Duration  of Punjabi",
+                "Semesters in Punjabi"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "buddhist",
+            "patterns": [
+                "Duration of Buddhist Studies",
+                "Semesters in Buddhist Studies"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "english",
+            "patterns": [
+                "Duration of English",
+                "Semesters in English"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "hindi",
+            "patterns": [
+                "Duration of Hindi",
+                "Semesters in Hindi"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "  dogri ",
+            "patterns": [
+                "Duration of Dogri",
+                "Semesters in Dogri"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "   urdu",
+            "patterns": [
+                "Duration of Urdu",
+                "Semesters in Urdu"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "  persian and arabic ",
+            "patterns": [
+                "Duration of Persian & Arabic",
+                "Semesters in Persian & Arabic"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " education  ",
+            "patterns": [
+                "Duration of Education",
+                "Semesters in Education"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": "  bio ",
+            "patterns": [
+                "Duration  of Bio-Technology/Bio-Chemistry/Microbiology",
+                "Semesters in Bio-Technology/Bio-chemistry/Microbiology"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " remote  ",
+            "patterns": [
+                "Duration of Remote Sensing",
+                "Semesters in Remote Sensing"
+            ],
+            "responses": [
+                "2 years",
+                "4 semesters"
+            ]
+        },
+        {
+            "tag": " MTech fee  ",
+            "patterns": [
+                "fee of MTech",
+                "Admission fee of MTech",
+                "total fee of MTech"
+            ],
+            "responses": [
+                " Rs 55000"
+            ]
+        },
+        {
+            "tag": " odd mtech  ",
+            "patterns": [
+                "Odd semester fee of MTech",
+                "mtech semester 1 fee",
+                "mtech sem 1 fee",
+                "mtech semester 3 fee",
+                "mtech sem 3 fee",
+                "sem 1 fee of mtech",
+                "sem 3 fee of mtech"
+            ],
+            "responses": [
+                " Rs 19000"
+            ]
+        },
+        {
+            "tag": " even mtech  ",
+            "patterns": [
+                "Even semester fee of MTech",
+                "mtech semester 2 fee",
+                "mtech sem 2fee",
+                "mtech semester 4 fee",
+                "mtech sem 4 fee",
+                "sem 2 fee of mtech",
+                "sem 4 fee of mtech"
+            ],
+            "responses": [
+                " Rs 8129"
+            ]
+        },
+        {
+            "tag": " total mca fee  ",
+            "patterns": [
+                "Fee of MCA",
+                "Fee of Computer Sc. and IT",
+                "Admission fee of MCA",
+                "total fee of mca"
+            ],
+            "responses": [
+                "Rs 55000"
+            ]
+        },
+        {
+            "tag": " even mca fee  ",
+            "patterns": [
+                "Even semester Fee of MCA",
+                "Even semester fee of Computer Sc. and IT",
+                "mca semester 2 fee",
+                "mca sem 2 fee",
+                "mca semester 4 fee",
+                "mca sem 4 fee",
+                "sem 2 fee of mca",
+                "sem 4 fee of mca"
+            ],
+            "responses": [
+                "Rs 8129"
+            ]
+        },
+        {
+            "tag": " odd mca fee  ",
+            "patterns": [
+                "Odd semester Fee of MCA",
+                "Odd semester  fee of Computer Sc. and IT",
+                "mca semester 1 fee",
+                "mca sem 1 fee",
+                "mca semester 3 fee",
+                "mca sem 3 fee",
+                "sem 1 fee of mca",
+                "sem 3 fee of mca"
+            ],
+            "responses": [
+                "Rs 18809"
+            ]
+        },
+        {
+            "tag": " total chem fee  ",
+            "patterns": [
+                "Fee of Chemistry",
+                "Admisssion fee of Chemistry",
+                "total fee of chemistry"
+            ],
+            "responses": [
+                "Rs 30000"
+            ]
+        },
+        {
+            "tag": " odd chem fee  ",
+            "patterns": [
+                "Odd semester Fee of Chemistry",
+                "chemistry semester 1 fee",
+                "chemistry sem 1 fee",
+                "chemistry semester 3 fee",
+                "chemistry sem 3 fee",
+                "sem 1 fee of chemistry",
+                "sem 3 fee of chemistry"
+            ],
+            "responses": [
+                "Rs 8000"
+            ]
+        },
+        {
+            "tag": " even chem fee  ",
+            "patterns": [
+                "Even semester Fee of Chemistry",
+                "chemistry semester 2 fee",
+                "chemistry sem 2 fee",
+                "chemistry semester 4 fee",
+                "chemistry sem 4 fee",
+                "sem 2 fee of chemistry",
+                "sem 4 fee of chemistry"
+            ],
+            "responses": [
+                "Rs 5000"
+            ]
+        },
+        {
+            "tag": " total physics fee  ",
+            "patterns": [
+                "Fee of Physics",
+                "Admission fee of Physics",
+                "total fee of physics"
+            ],
+            "responses": [
+                "Rs 30000"
+            ]
+        },
+        {
+            "tag": " odd physics fee  ",
+            "patterns": [
+                " Odd semester Fee of Physics",
+                "physics semester 1 fee",
+                "physics sem 1 fee",
+                "physics semester 3 fee",
+                "physics sem 3 fee",
+                "sem 1 fee of physics",
+                "sem 3 fee of physics"
+            ],
+            "responses": [
+                "Rs 8000"
+            ]
+        },
+        {
+            "tag": "  even physics fee ",
+            "patterns": [
+                " Even semester Fee of Physics",
+                "physics semester 2 fee",
+                "physics sem 2 fee",
+                "physics semester 4 fee",
+                "physics sem 4 fee",
+                "sem 2 fee of physics",
+                "sem 4 fee of physics"
+            ],
+            "responses": [
+                "Rs 5000"
+            ]
+        },
+        {
+            "tag": " total fee Political  ",
+            "patterns": [
+                "Fee of Political Science",
+                "Admission fee of Political Science",
+                "total fee of political science"
+            ],
+            "responses": [
+                "Rs 40000"
+            ]
+        },
+        {
+            "tag": " odd fee of pol  ",
+            "patterns": [
+                "Odd semester Fee of Political Science",
+                "Political Science semester 1 fee",
+                "Political Science sem 1 fee",
+                "Political Science semester 3 fee",
+                "Political Science sem 3 fee",
+                "sem 1 fee of Political Science",
+                "sem 3 fee of Political Science"
+            ],
+            "responses": [
+                "Rs 12000"
+            ]
+        },
+        {
+            "tag": "even fee of pol  ",
+            "patterns": [
+                "Even semester Fee of Political Science",
+                "Political Science semester 2 fee",
+                "Political Science sem 2 fee",
+                "Political Science semester 4 fee",
+                "Political Science sem 4 fee",
+                "sem 2 fee of Political Science",
+                "sem 4 fee of Political Science"
+            ],
+            "responses": [
+                "Rs 8000"
+            ]
+        },
+        {
+            "tag": " total fee Economics  ",
+            "patterns": [
+                "Fee of Economics",
+                "total fee of economics",
+                "Admission fee of Economics"
+            ],
+            "responses": [
+                "Rs 40000"
+            ]
+        },
+        {
+            "tag": "  Odd Fee of Economics ",
+            "patterns": [
+                "Odd semester Fee of Economics",
+                "Economics semester 1 fee",
+                "Economics sem 1 fee",
+                "Economics semester 3 fee",
+                "Economics sem 3 fee",
+                "sem 1 fee of Economics",
+                "sem 3 fee of Economics"
+            ],
+            "responses": [
+                "Rs 12000"
+            ]
+        },
+        {
+            "tag": " Even Fee of Economics  ",
+            "patterns": [
+                "Even semester Fee of Economics",
+                "Economics semester 2 fee",
+                "Economics sem 2 fee",
+                "Economics semester 4 fee",
+                "Economics sem 4 fee",
+                "sem 2 fee of Economics",
+                "sem 4 fee of Economics"
+            ],
+            "responses": [
+                "Rs 8000"
+            ]
+        }
+    ]
+}

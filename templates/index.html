@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+   </head>
+<body>
+    <div class="page-header">
+        <img src="{{ url_for('static', filename='images/ju2.jpg') }}"  width="1518"  height="450">
+        
+    </div>
+    <!-- /.page-header-->
+    <!-- news -->
+    <div class="maindiv">
+         <h2><b>The University of Jammu</b></h2>
+         <h4><sub>'A+' Grade University by National Assessment & Accreditation Councilof India</sub></h4>
+         <p> University came into existence in 1969 vide Kashmir and Jammu Universities Act 1969 following bifurcation of theerstwhile University
+        of Jammu and Kashmir. The University provides instructions in such branches of learning as it deems fit and makes provision for research and the advancement and dissemination of knowledge. 
+        he University stands for spiritual and material elements in life,thirst for knowledge and virtue under the backdrop of holy peaks of Trikuta Hills.
+         </p>
+    </div>
+                        
+                    
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/logo.png') }}" width="55"  height="55" alt="image">
+                </div> 
+                
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi! I am bot. How can I help you?</p>
+                </div>
+                
+                <buttonn class="admin_bt" id="adm" title="admin">
+                    <imgg src="{{ url_for('static', filename='images/admi.png') }}" id="ad" width="34"  height="34" />
+                  </button>
+            </div>
+            <div class="chatbox__messages">
+                
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" id="result" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+                <button class="mic__button">
+                    <img src="https://www.svgrepo.com/show/1352/microphone.svg" id="mic" width="20" height="20" >
+                    </button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" title="chat" /></button>
+        </div>
+    </div>
+</div>
+
+  <script>  
+    $SCRIPT_ROOT = "{{ request.script_root|tojson }}";
+  </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
+
+</body>
+</html>

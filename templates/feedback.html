@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK</title>
+    <style>
+.box{
+    width: 350px;
+    height: 450px;
+    background:white;
+    position: relative;
+    box-shadow: 3px 2px 3px 3px rgb(101, 99, 99);
+    border-radius: 10px;
+    margin-top: 25%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+
+
+.input-group .inp{
+    width: 60%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+    
+
+.submit-inp{
+    width: 40%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: rgb(86, 6, 205);
+    opacity: 0.89;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.submit-inp:hover{
+    width:39.7%;
+    opacity: 1;
+}
+b{
+    margin-left: 35%;
+    color: rgb(75, 8, 137);
+    font-size: 20px;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+    </style>
+</head>
+<body>
+    <form action="/feedback" method="post">
+    <div class="box">
+        <b>FEEDBACK</b>
+            <div class="input-group">
+                
+                <input type="text" placeholder="enter full name" name="fullname" required class="inp">
+            
+                <input type="email" placeholder="enter email id" name="email" required class="inp">
+            
+            
+            <textarea type="text" placeholder="enter message" name="message" required class="inp"></textarea>
+            
+                <input type="submit" value="Send" name="" class="submit-inp">
+            </div> 
+            
+            {% with messages = get_flashed_messages(with_categories=true)%}
+            {% if messages %}
+            {% for category, message in messages %}
+              <div class="alert alert-{{category}} alert-dismissible fade show " role="alert">
+                  {{message}}
+                  
+              </div>
+           {% endfor %}
+           {% endif %}
+           {% endwith %}      
+    </div>
+    </form> 
+    
+</body>
+</html>

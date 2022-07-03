@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+
+.input-group{
+    margin-top: 5%;
+    margin-left: 30%;
+    
+}
+.input-group .span{
+    position: relative;
+    
+    
+}
+
+.input-group .inp{
+    padding: 8px;
+    border:none;
+    border-radius: 7px;
+    background-color: rgb(224, 227, 228);
+    margin-right: 3px;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+.input-group .submit{
+    padding: 8px;
+    width:10%;
+    border:none;
+    background-color: rgb(89, 0, 255);
+    color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    cursor: pointer;
+    opacity: 0.89;
+}
+.submit:hover{
+    opacity:1;
+    width:9.88%;
+
+}
+
+
+b{
+    margin-right: 10px;
+    color: rgb(66, 5, 127);
+
+    
+}
+strong{
+    margin-left: 40%;
+}
+button{
+    position: relative;
+}
+    </style>
+</head>
+<centre>
+<body>
+    <form action="/add" method="post" id="myform"> 
+    <div class="admin"><strong>ADDING TO JSON FILE</strong>
+        <div class="input-group" id="pattern"><b>KEYWORDS</b>
+        <input type="text" placeholder="keyword 1" required name="keyword" class="inp">
+         <button class="submit" onclick="patternbox()">add keyword</button>
+        </div>
+        <div class="input-group" id="response"><b>ANSWER</b>
+            <input type="text" placeholder="response 1" required name="response" class="inp">
+            <button class="submit" onclick="responsebox()">add answer</button>
+        </div> 
+        <div class="input-group">
+            <b>TAG</b>
+            <input type="text" placeholder="give name to a class" required name="tag" class="inp">
+        </div>
+        <div class="input-group">
+            <input type="submit" value="add to json" placeholder="" name="" class="submit">
+              
+        </div>
+    </div>
+    </form>
+ <script>
+   var i=1;
+   var j=1;
+   function patternbox(){
+     var y=document.createElement("input")
+     y.setAttribute("type","text")
+     y.setAttribute("placeholder","keyword"+i)
+     y.setAttribute("name","keyword")
+     y.setAttribute("class","inp")
+     y.setAttribute("required","")
+     document.getElementById("pattern").appendChild(y)
+     i++
+   }
+   function responsebox(){
+     var y= document.createElement("input")
+     y.setAttribute("type","text")
+     y.setAttribute("placeholder","response"+j)
+     y.setAttribute("name","response")
+     y.setAttribute("class","inp")
+     y.setAttribute("required","")
+     document.getElementById("response").appendChild(y)
+     j++
+   }
+ </script>
+</body>
+</centre>
+</html>

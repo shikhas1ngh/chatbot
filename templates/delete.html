@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>delete index</title>
+<style>
+
+.input-group{
+    margin-left: 40%;
+    margin-top: 8%;
+
+}
+
+.input-group .inp{
+    padding: 10px;
+    background-color: rgb(231, 232, 232);
+    border-radius: 10px;
+    border: none;
+
+}
+.input-group .submit{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(89, 18, 155);
+    color: hwb(0 96% 3% / 0.975);
+    cursor: pointer;
+    opacity: 0.8;
+    border: none;
+    
+}
+.submit:hover{
+    opacity: 1;
+}
+.text{
+color: rebeccapurple;
+margin-left: 40%;
+margin-top: 10%;
+}
+</style>
+</head>
+    <body>
+        <div class="text"><b>DELETE THE CONTENT FROM JSON FILE</b></div>
+        <form action="/delete" method="post">       
+            <div class="input-group">
+                <input type="text" placeholder="enter tag to delete" name="index" class="inp">
+                <input type="submit" value="delete" placeholder="" name="" class="submit">
+                  
+            </div>
+        </form>
+        
+    </body>
+
+    </html>
