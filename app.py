@@ -33,16 +33,13 @@ class Admin(db.Model):
     token= db.Column(db.String(50), unique=False, nullable=False) 
     password= db.Column(db.String(50), unique=False, nullable=False)   
 app.secret_key ='super-secret-key'
-admin=Admin.query.all()
-for a in admin:
-    email= a.email
-    password= a.password
+
 app.config.update(
     MAIL_SERVER ="smtp.gmail.com",
     MAIL_PORT = '465',
     MAIL_USE_SSL = True,
-    MAIL_USERNAME = email,
-    MAIL_PASSWORD = password
+    MAIL_USERNAME = "shikhasingh56440@gmail.com",
+    MAIL_PASSWORD = "Redminote8"
 )
 mail = Mail(app)
 
