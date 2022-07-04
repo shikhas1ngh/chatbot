@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table td{
+  border: 1px solid black;
+}
+    </style>
+</head>
+<body>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">sno</th>
+        <th scope="col">question</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      {% for unanswer in unanswer %}  
+      <tr>
+        <td>{{unanswer.sno}}</td>
+        <td>{{unanswer.question}}</td>
+        
+        <td><a href="/deletedb2/{{unanswer.sno}}"> delete </a></td>
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+    
+</body>
+</html>
